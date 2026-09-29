@@ -1,0 +1,60 @@
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    background-color: #111;
+    color: white;
+}
+.container a {
+    color:white;
+    text-decoration: none;
+    transition:.8s;
+}
+.container a:hover{
+    color: #f5c400;
+    text-decoration: underline;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    font-size: 30px;
+    color: #f5c400;
+}
+.logo h1{
+    font-size:20px;
+}
+.logo span{
+    display:block !important;
+    font-size:15px;
+    color: #f5c400;
+    font-weight:bold;
+}
+.lista{
+    display:flex;
+    gap:50px;
+    list-style:none;
+}
+.button{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:4px;
+    padding:12px 20px;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    background-color: #f5c400;
+    color: #111;
+    transition:1s;
+}
+.zap{
+    margin-top:1px;
+}
+.button:hover{
+    color: #f5c400;
+    background-color: #000000;
+}
